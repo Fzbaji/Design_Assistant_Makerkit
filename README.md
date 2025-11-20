@@ -1,4 +1,4 @@
-# 🎨 Design Assistant - Phase 1 & 2 Complete !
+# 🎨 Design Assistant 
 
 ## ✅ Ce qui a été implémenté
 
