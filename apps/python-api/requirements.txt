@@ -1,0 +1,30 @@
+# FastAPI Framework
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+pydantic==2.9.2
+
+# CORS pour Next.js
+fastapi-cors==0.0.6
+
+# Calcul scientifique pour SIMP
+numpy==1.26.4
+scipy==1.14.1
+
+# TripoSR pour image-to-3D
+git+https://github.com/VAST-AI-Research/TripoSR.git
+
+# Image processing
+Pillow>=10.0.0
+
+# Build123d pour génération STL (CAO paramétrique)
+build123d==0.6.0
+
+# Optionnel: dl4to pour deep learning topology optimization
+# dl4to==0.1.0  # Décommentez si vous voulez l'IA avancée
+
+# Gestion fichiers temporaires
+python-multipart==0.0.12
+aiofiles==24.1.0
+
+# Variables d'environnement
+python-dotenv==1.0.1

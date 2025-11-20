@@ -1,0 +1,35 @@
+/* CSS temporaire pour forcer les couleurs RGB lors de l'export PDF */
+/* Ceci évite les erreurs "oklch" de html2canvas */
+
+#report-content * {
+  /* Forcer les couleurs de texte en RGB */
+  --tw-text-opacity: 1 !important;
+}
+
+#report-content .text-muted-foreground {
+  color: rgb(107, 114, 128) !important; /* gray-500 */
+}
+
+#report-content .text-primary {
+  color: rgb(99, 102, 241) !important; /* indigo-500 */
+}
+
+#report-content .bg-primary {
+  background-color: rgb(99, 102, 241) !important;
+}
+
+#report-content .border-primary {
+  border-color: rgb(99, 102, 241) !important;
+}
+
+#report-content .bg-muted {
+  background-color: rgb(243, 244, 246) !important; /* gray-100 */
+}
+
+#report-content .bg-white {
+  background-color: rgb(255, 255, 255) !important;
+}
+
+#report-content .text-white {
+  color: rgb(255, 255, 255) !important;
+}

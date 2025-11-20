@@ -1,0 +1,25 @@
+{
+  "geometry": {
+    "shape": "box",
+    "dimensions": [100, 100, 100]
+  },
+  "material": {
+    "name": "acier",
+    "youngs_modulus": 200000000000,
+    "poisson_ratio": 0.3,
+    "density": 7850
+  },
+  "loads": {
+    "force_magnitude": 1000,
+    "force_direction": [0, 0, -1]
+  },
+  "constraints": {
+    "volume_fraction": 0.4,
+    "fixed_faces": ["bottom"]
+  },
+  "optimization": {
+    "resolution": 15,
+    "iterations": 20,
+    "density_threshold": 0.5
+  }
+}
