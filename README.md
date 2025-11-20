@@ -174,15 +174,13 @@ Budget moyen, matériau durable (inox ou tritan).
 ✅ **PHASE 2 COMPLETE**: Génération de concepts visuels
 ⏳ **PHASE 3-5**: À développer
 
-**Temps de développement Phase 1-2**: ~2h30
+
 **Fonctionnel**: Oui, testable immédiatement
 **Mode demo**: Oui (sans API keys externes)
 
 ---
 
-## 🎉 C'est prêt !
-
-Le module `/design-assistant` est maintenant fonctionnel en parallèle de `/generative-design`.
+Le module `/design-assistant` est maintenant fonctionnel.
 
 **Lancez le serveur et testez** :
 ```powershell
