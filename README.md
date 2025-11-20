@@ -174,10 +174,6 @@ Budget moyen, matériau durable (inox ou tritan).
 ✅ **PHASE 2 COMPLETE**: Génération de concepts visuels
 ⏳ **PHASE 3-5**: À développer
 
-
-**Fonctionnel**: Oui, testable immédiatement
-**Mode demo**: Oui (sans API keys externes)
-
 ---
 
 Le module `/design-assistant` est maintenant fonctionnel.
